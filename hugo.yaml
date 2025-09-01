@@ -116,8 +116,8 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
+    - identifier: カテゴリ
+      name: カテゴリ
       url: /categories/
       weight: 10
     - identifier: tags
