@@ -1,5 +1,5 @@
-baseURL: "https://majestic-pithivier-f80dd7.netlify.app/"
-title: おじたく
+baseURL: "https://taxi-lab.jp/"
+title: Taxi Lab
 pagination:
   pagerSize: 10
 theme: PaperMod
@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-DG91S7KZRF
 
 minify:
   disableXML: true
@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: Taxi Lab
+  description: "現役タクシードライバーによるタクシー業界特化メディア。売上データ・営業攻略・転職情報を発信。"
+  keywords: [タクシー, タクシードライバー, タクシー転職, 売上, 営業攻略]
+  author: ojitaku
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -53,7 +53,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "おじたく"
+    text: "Taxi Lab"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -74,8 +74,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Taxi Lab へようこそ"
+    Content: 現役タクシードライバーによる業界特化メディア。300日分の営業データをもとに売上アップのヒントを発信します。
 
   socialIcons:
     - name: x
